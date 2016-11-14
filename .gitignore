@@ -1,0 +1,17 @@
+# Project configuration
+/bin
+build
+/build
+.project
+
+# Eclipse configuration
+.classpath
+.project
+.settings
+/WEB-INF
+
+# Text editors
+*.swp
+*.orig
+*.directory
+*.~lock*
