@@ -11,6 +11,8 @@ $[localhost git] git clone git@github.com:diegoAntonio/setUp.git
 ```
 2. Renomear a pasta do projeto
 ```
+$[localhost git] mv setUp Nome_Projeto
+```
 3. Entrar na pasta e trocar a branch conveniente (lista de branchs abaixo)
 ```
 $[localhost <Nome_Projeto>] git checkout Nome_Branch 
