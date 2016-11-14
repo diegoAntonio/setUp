@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'eclipse-wtp'
+
+// Versão Java JDK
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+jar{
+archivesBaseName='setUp'
+}
+
+repositories {
+	mavenCentral()
+	maven{url 'https://mvnrepository.com/'}
+}
+
+dependencies {
+//Logger
+compile group: 'log4j', name: 'log4j', version: '1.2.15'
+
+}
+
+task wrapper(type: Wrapper) {
+  gradleVersion = '3.1'
+}
